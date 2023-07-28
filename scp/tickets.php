@@ -22,7 +22,7 @@ require_once(INCLUDE_DIR.'class.canned.php');
 require_once(INCLUDE_DIR.'class.json.php');
 require_once(INCLUDE_DIR.'class.dynamic_forms.php');
 require_once(INCLUDE_DIR.'class.export.php');       // For paper sizes
-
+include (INCLUDE_DIR.'../PH_scripts/external_ticket_number/ex_ticketnr_form.inc.php');
 
 
 // Fetch ticket queues organized by root and sub-queues
